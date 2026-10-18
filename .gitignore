@@ -1,0 +1,69 @@
+# ==========================================
+# 1. ARCHIVOS DE ENTORNO Y SECRETOS (CRÍTICO)
+# ==========================================
+.env
+.env.local
+.env.development
+.env.production
+secrets.json
+config.json
+
+# ==========================================
+# 2. CONSTRUCCIÓN Y ARTEFACTOS GENERADOS
+# ==========================================
+dist/
+build/
+target/
+
+# ==========================================
+# 3. DEPENDENCIAS Y LIBRERÍAS EXTERNAS
+# ==========================================
+node_modules/
+vendor/
+.venv/
+venv/
+
+# ==========================================
+# 4. ARCHIVOS DE CONFIGURACIÓN DE IDES
+# ==========================================
+.vscode/
+.idea/
+.project
+.settings/
+*.ipr
+*.iws
+
+# ==========================================
+# 5. REGISTROS, CACHÉS Y TEMPORALES
+# ==========================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tmp
+*.bak
+.mypy_cache/
+__pycache__/
+.ipynb_checkpoints/
+
+# ==========================================
+# 6. ARCHIVOS ESPECÍFICOS DEL SISTEMA OPERATIVO
+# ==========================================
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# 7. BASES DE DATOS Y ALMACENAMIENTO LOCAL
+# ==========================================
+*.sqlite
+*.sqlite3
+*.db
+dump.rdb
+
+# ==========================================
+# 8. CI/CD Y COBERTURA DE PRUEBAS
+# ==========================================
+coverage/
+*.lcov
+.tox/
+.pytest_cache/
