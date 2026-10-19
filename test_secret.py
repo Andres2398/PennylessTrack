@@ -1,2 +1,2 @@
-# Token simulado para prueba de Secret Scanning
-GITHUB_TOKEN = "ghp_1234567890abcdefghijklmnopqrstuvwxyzAB"
+# Simulación de credencial expuesta para prueba de seguridad
+GITHUB_API_TOKEN = "ghp_000000000000000000000000000000000000"
