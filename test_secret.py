@@ -1,1 +1,2 @@
-GITHUB_API_TOKEN = "ghp_ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+# Token simulado para prueba de Secret Scanning
+GITHUB_TOKEN = "ghp_1234567890abcdefghijklmnopqrstuvwxyzAB"
